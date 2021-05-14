@@ -1,5 +1,7 @@
-<%= @player_1_name %> vs. <%= @player_2_name %>
+<%= @game.player_1.name %> vs. <%= @game.player_2.name %>
 <br>
-<%= @player_2_name %>: 12 lives
+<%= @game.player_2.name %>: <%= @game.player_2.lives %> lives
+<br>
+Go <%= @game.turn.name %>!
 <br>
 <a href="/attack">ATTACK</a>

@@ -10,5 +10,9 @@ class Player
     @lives = lives
   end
 
-  def method_name; end
-end
+   def receive_damage
+    @lives -= 1     
+   end
+
+
+  end

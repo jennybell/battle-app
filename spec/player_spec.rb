@@ -16,13 +16,6 @@ describe Player do
     end
   end
 
-  describe '#attack' do
-    it 'attacks the player' do
-      expect(pat). to receive(:receive_damage)
-      dennis.attack(pat)
-    end
-    
-  end
+ 
 
-  
 end
